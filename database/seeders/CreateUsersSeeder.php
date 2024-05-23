@@ -20,7 +20,7 @@ class CreateUsersSeeder extends Seeder
                 'name' => 'Superadmin',
                 'email' => 'superadmin@email.com',
                 'type' => 0,
-                'password' => bcrypt('123455'),
+                'password' => bcrypt('12345'),
             ],
             [
                 'name' => 'Admin',
@@ -78,7 +78,7 @@ class CreateUsersSeeder extends Seeder
             ],
             [
                 'name' => 'Wakil Direktur 3',
-                'email' => 'dosen@email.com',
+                'email' => 'wd3@email.com',
                 'type' => 10,
                 'password' => bcrypt('12345'),
             ],
